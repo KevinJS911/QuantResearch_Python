@@ -1,0 +1,11 @@
+#To initiatialize a git object:
+git init
+
+#To track new objects prior to push:
+git add .
+
+#To commit changes with description "Bullbitch":
+git commit -m "BullBitch"
+
+#To push changes (specific for me, the changes are pushed to the master branch instead of the main branch)
+git push origin HEAD:master 
